@@ -1,0 +1,83 @@
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: rgba(251, 252, 255, 0.87);
+    border-radius: 5px;
+}
+body{
+    background-color: rgba(255, 234, 41, 0.596);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+.logout{
+    margin-left: 50%;
+    font-size: 20px;
+}
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 23, 21);
+
+}
+.login_form{
+    padding: 20px 40px;
+}
+.login_form .font{
+    font-size: 25px;
+    color:rgb(19, 18, 18);
+    margin: 5px 0;
+}
+.login_form input{
+    height:40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border:1px solid silver;
+} 
+.login_form .font2{
+    margin-top: 30px;
+
+}
+.login_form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: rgb(237, 236, 245);
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #1b2383d2;
+    border-radius: 3px;
+    border: 1px solid #3949AB;
+    transition: .5s;
+}
+.login_form button:hover{
+    background:#151c6a;
+}
+
+button{
+        margin-left: 10%;
+        margin-bottom: 10%;
+        height: 45px;
+        width: 365px;
+        font-size: 20px;
+        color: rgb(237, 236, 245);
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        background: #1b2383d2;
+        border-radius: 3px;
+        border: 1px solid #3949AB;
+        transition: .5s;
+    
+}
